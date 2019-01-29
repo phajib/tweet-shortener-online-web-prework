@@ -24,3 +24,8 @@ def word_substituter(tweet)
   end
   .join(" ")
 end
+
+def bulk_tweet_shortener(tweet)
+  chk_dict = dictionary.keys
+  
+end
