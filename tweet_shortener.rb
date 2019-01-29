@@ -29,5 +29,4 @@ def bulk_tweet_shortener(tweet)
   tweet.collect do |str|
     puts word_substituter(str)
   end
-  
 end
