@@ -11,7 +11,8 @@ def dictionary
     "two" => "2",
     "you" => "u"
   }
+end
 
 def word_substituter(tweet)
-  
+
 end
