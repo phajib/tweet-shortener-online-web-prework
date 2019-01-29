@@ -14,8 +14,9 @@ def dictionary
 end
 
 def word_substituter(tweet)
+  chk_dict = dictionary.keys
   tweet.split(" ").collect do |word|
-    if dictionary.keys.include?(word)
+    if chk_dict.include?(word)
       word = dictionary[word]
     else
       word
