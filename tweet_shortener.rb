@@ -14,5 +14,10 @@ def dictionary
 end
 
 def word_substituter(tweet)
-
+  tweet.split(" ").each do |word|
+    dictionary.keys.include?(word)
+      word = dictionary[word]
+    end
+  end
+  .join(" ")
 end
